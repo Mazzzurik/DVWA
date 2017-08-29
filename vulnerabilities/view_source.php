@@ -43,6 +43,9 @@ switch ($id) {
 	case "weak_id" :
 		$vuln = 'Weak Session IDs';
 		break;
+	case "oob" :
+		$vuln = 'Out of Band';
+		break;
 	default:
 		$vuln = "Unknown Vulnerability";
 }
